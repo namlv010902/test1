@@ -11,7 +11,7 @@ export const initialState:IProduct[] = []
         case"ADD_PRODUCT": 
         return state
         case"UPDATE_PRODUCT":
-        return state
+        return state state
         default: 
         return state
     }
